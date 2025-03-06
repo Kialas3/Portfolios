@@ -19,7 +19,7 @@
 
 ## 影片展示
 
-<video src="https://www.youtube.com/watch?v=AwVw5OeG2AE"></video>
+[![Demo](https://img.youtube.com/vi/AwVw5OeG2AE/3.jpg)](https://www.youtube.com/watch?v=AwVw5OeG2AE)
 
 ## 程式碼
 
