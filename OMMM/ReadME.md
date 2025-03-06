@@ -6,6 +6,12 @@
 
 ### 在歐麥麥麥的[官網](https://vtuber-maii.com/)中有一款考驗眼力、反應力與運氣的小遊戲 - **[看誰最會射靶拔](https://games.vtuber-maii.com/)**
 
+透過使用 yolo 模型，針對需要射擊的目標進行偵測，找出其位置，並結合 pyautogui 自動控制滑鼠移動到該位置進行射擊。
+
+### 影片展示
+
+- 待補
+
 ---
 
 ### 前置作業
@@ -14,3 +20,10 @@
 2. 安裝 [Ultralytics](https://docs.ultralytics.com/zh/quickstart/)：包含 PyTorch
 3. 下載 [YOLOv8](https://docs.ultralytics.com/zh/models/yolov8/#supported-tasks-and-modes)：我是使用 yolov8m
 4. 可以下載我已經訓練好的模型（在[run.zip](https://drive.google.com/file/d/10in37MpOKWeJqSwGYlRvP43Q0TKJBRLp/view?usp=drive_link)）
+
+---
+
+### 程式碼
+
+1. 訓練 yolo 模型並測試能否使用：[train and test.ipynb](train%20and%20test.ipynb)
+2. 開始射擊：[start.py](start.py)
