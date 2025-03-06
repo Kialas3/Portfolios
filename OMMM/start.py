@@ -43,14 +43,14 @@ try:
                 
                 target_position = (left+(x1 + x2) // 2, top+(y1 + y2) // 2)
                 
-                if time.time() - timer > 0.1:
-                    pyautogui.moveTo(target_position, duration=0.05)
-                    pyautogui.click()
-                    waiting = True
-                    timer = time.time()
-                elif pyautogui.position() != (left, top) and waiting:
-                    pyautogui.moveTo((left, top), duration=0.05)
-                    waiting = False
+                # if time.time() - timer > 0.1:
+                pyautogui.moveTo(target_position, duration=1)
+                pyautogui.click()
+                waiting = True
+                timer = time.time()
+                # elif pyautogui.position() != (left, top) and waiting:
+                #     pyautogui.moveTo((left, top), duration=0.05)
+                #     waiting = False
                 
             if boxes.shape[0] == 0 and time.time() - timer > 1:
                 print("找不到目標，重新尋找")
