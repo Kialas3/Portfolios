@@ -19,7 +19,8 @@
 1. Python 3.6+
 2. 安裝 [Ultralytics](https://docs.ultralytics.com/zh/quickstart/)：包含 PyTorch
 3. 下載 [YOLOv8](https://docs.ultralytics.com/zh/models/yolov8/#supported-tasks-and-modes)：我是使用 yolov8m
-4. 可以下載我已經訓練好的模型（在[run.zip](https://drive.google.com/file/d/10in37MpOKWeJqSwGYlRvP43Q0TKJBRLp/view?usp=drive_link)）
+4. 透過 Roboflow 製作訓練資料集：[Roboflow](https://roboflow.com/)
+5. 可以下載我已經訓練好的模型（在[run.zip](https://drive.google.com/file/d/10in37MpOKWeJqSwGYlRvP43Q0TKJBRLp/view?usp=drive_link)）
 
 ---
 
