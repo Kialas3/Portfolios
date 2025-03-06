@@ -11,7 +11,8 @@ left = 420
 top = 175
 
 # 設定擷取範圍 (x, y, width, height)
-capture_region = (left, top, 2560-left*2, 1240) 
+# capture_region = (left, top, 2560-left*2, 1240) # for 2K monitor
+capture_region = (left, top, 1920-left*2, 1080) # for 1080p monitor
 timer = time.time()
 waiting = True
 try:
