@@ -2,7 +2,7 @@
 
 ## 簡介
 
-這是一個簡易的自動駕駛模擬專案，透過 Unity、Python 及 OpenCV 共同實現。該專案為我在大學時期的期末專題，旨在藉由開發此系統，練習 Unity 的遊戲開發與 Python 的應用。
+這是一個簡易的自動駕駛模擬專案，透過 Unity、Python 及 OpenCV 共同實現，目的是藉由開發此系統，練習 Unity 的遊戲開發與 Python 的應用。
 
 在虛擬環境中，我們模擬了一套簡易的自駕車系統，使車輛能夠自動行駛至目的地，無需駕駛者介入控制。專案中使用 Unity 來模擬車輛的感測器，以確保車輛能夠穩定行駛，並藉此了解感測器的功能與應用。
 
@@ -13,7 +13,7 @@
 3. **障礙物偵測與閃避**：透過車輛前方的感測物件偵測障礙物，當車輛接近障礙物時，系統會自動切換車道以閃避。
 4. **目的地設定與自動導航**：使用者可在 UI 選單中選擇目的地，系統將自動引導車輛前往指定地點，並在抵達時顯示成功通知。
 
-此外，本專案亦設計了一個簡單的 UI 介面，讓使用者能夠調整車速、選擇變換車道並設定目的地，以提升互動性與操作體驗。
+此外，本專案也設計了一個簡單的 UI 介面，讓使用者能夠調整車速、選擇變換車道並設定目的地，以提升互動性與操作體驗。
 
 未來的改進方向包括優化導航系統，使車輛能夠更精確地到達目的地，並進一步提升障礙物偵測與避讓的精度，以模擬更真實的自動駕駛環境。
 
@@ -23,5 +23,5 @@
 
 ## 程式碼
 
-1. [Python](input_openCV_data.ipynb)：透過 OpenCV 來處理電腦畫面，並透過 socket 來與 Unity 進行溝通。
-2. [Unity](https://drive.google.com/file/d/1afGIvgE8X9BTsJPcH-cMu6kXu9JEKcs9/view?usp=drive_link)：透過 C# 來撰寫控制邏輯，並透過 socket 來與 Python 進行溝通。
+1. [Python](input_openCV_data.ipynb)
+2. [Unity](https://drive.google.com/file/d/1afGIvgE8X9BTsJPcH-cMu6kXu9JEKcs9/view?usp=drive_link)
