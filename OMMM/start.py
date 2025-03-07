@@ -11,8 +11,8 @@ left = 420
 top = 175
 
 # 設定擷取範圍 (x, y, width, height)
-# capture_region = (left, top, 2560-left*2, 1240) # for 2K monitor
-capture_region = (left, top, 1920-left*2, 1080) # for 1080p monitor
+capture_region = (left, top, 2560-left*2, 1240) # for 2K monitor
+# capture_region = (left, top, 1920-left*2, 1080) # for 1080p monitor
 timer = time.time()
 waiting = True
 try:
@@ -45,7 +45,7 @@ try:
                 target_position = (left+(x1 + x2) // 2, top+(y1 + y2) // 2)
                 
                 # if time.time() - timer > 0.1:
-                pyautogui.moveTo(target_position, duration=1)
+                pyautogui.moveTo(target_position, duration=0.5)
                 pyautogui.click()
                 waiting = True
                 timer = time.time()
