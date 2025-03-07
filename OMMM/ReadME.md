@@ -1,4 +1,4 @@
-# [歐麥麥麥](https://www.youtube.com/@Omaimaimaii)
+# [鷗麥麥麥](https://www.youtube.com/@Omaimaimaii)
 
 ## 鷗麥麥麥，暱稱 Maii，是台灣 YouTuber[放火](https://www.youtube.com/@fanghuo)旗下的 VTuber，形象由台灣繪師米豆綠繪製。在首次直播前，其 YouTube 頻道即已突破 10 萬訂閱 。（來源：[維基百科](https://zh.wikipedia.org/zh-tw/%E9%B7%97%E9%BA%A5%E9%BA%A5%E9%BA%A5)）
 
