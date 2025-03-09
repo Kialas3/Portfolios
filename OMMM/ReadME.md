@@ -9,8 +9,7 @@
 透過使用 yolo 模型，針對需要射擊的目標進行偵測，找出其位置，並結合 pyautogui 自動控制滑鼠移動到該位置進行射擊。
 
 ### 影片展示
-
-[![Demo](https://img.youtube.com/vi/vA1YSSmWciQ/0.jpg)](https://www.youtube.com/watch?v=vA1YSSmWciQ)
+[![Demo](https://img.youtube.com/vi/0zGmnwMTvbY/0.jpg)](https://youtu.be/0zGmnwMTvbY)
 
 ---
 

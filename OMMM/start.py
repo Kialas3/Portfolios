@@ -1,18 +1,18 @@
 import cv2
 import numpy as np
-from mss import mss
 from ultralytics import YOLO
 import pyautogui
 import time
 
 model = YOLO("./runs/detect/train16/weights/best.pt")
 
-left = 420
-top = 175
+left = 500
+top = 200
 
 # 設定擷取範圍 (x, y, width, height)
-capture_region = (left, top, 2560-left*2, 1240) # for 2K monitor
-# capture_region = (left, top, 1920-left*2, 1080) # for 1080p monitor
+capture_region = (left, top, 3840-left*2, 2160-270) # for 4K monitor ()
+# capture_region = (left, top, 2560-left*2, 1240) # for 2K monitor (ok)
+# capture_region = (left, top, 1920-left*2, 1080) # for 1080p monitor (not ok)
 timer = time.time()
 waiting = True
 try:
@@ -45,7 +45,7 @@ try:
                 target_position = (left+(x1 + x2) // 2, top+(y1 + y2) // 2)
                 
                 # if time.time() - timer > 0.1:
-                pyautogui.moveTo(target_position, duration=0.5)
+                pyautogui.moveTo(target_position, duration=0.2)
                 pyautogui.click()
                 waiting = True
                 timer = time.time()
